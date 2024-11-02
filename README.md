@@ -8,8 +8,10 @@ It is based on Laravel Jetstream and the following packages.
 - [Laravel Rest Api](https://github.com/Lomkit/laravel-rest-api).
 - [Laravel login link](https://github.com/spatie/laravel-login-link).
 - [Larastan](https://github.com/larastan/larastan).
-- 
+
 ## Contributing
+
+This is in no way affiliated with Laravel, however we follow the same guides and principles
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
