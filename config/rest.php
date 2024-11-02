@@ -117,17 +117,17 @@ return [
         ],
         // See https://spec.openapis.org/oas/v3.1.0#security-scheme-object
         'securitySchemes' => [
-            "api_key" => [
-                "description" => "Authentication via API key",
-                "type" => "apiKey",
-                "name" => "x-api-key",
-                "in" => "header"
+            'api_key' => [
+                'description' => 'Authentication via API key',
+                'type' => 'apiKey',
+                'name' => 'x-api-key',
+                'in' => 'header',
             ],
-            "http_bearer" => [
-                "description" => "HTTP authentication with bearer token",
-                "type" => "http",
-                "scheme" => "bearer",
-                "bearerFormat" => "JWT"
+            'http_bearer' => [
+                'description' => 'HTTP authentication with bearer token',
+                'type' => 'http',
+                'scheme' => 'bearer',
+                'bearerFormat' => 'JWT',
             ],
             //            "oauth_authcode" => [
             //                "description" => "Authentication via OAuth2 with authorization code flow",

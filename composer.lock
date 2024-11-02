@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c5ae7a53e87059fce5f788cdfa2e0f7",
+    "content-hash": "0d8a7cea17b5ff84984c13012ab03052",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2200,80 +2200,6 @@
                 }
             ],
             "time": "2024-10-15T19:35:06+00:00"
-        },
-        {
-            "name": "lomkit/laravel-rest-api",
-            "version": "v2.8.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Lomkit/laravel-rest-api.git",
-                "reference": "473601f09b547ed020cbdc8d9855e5b41e954970"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Lomkit/laravel-rest-api/zipball/473601f09b547ed020cbdc8d9855e5b41e954970",
-                "reference": "473601f09b547ed020cbdc8d9855e5b41e954970",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "laravel/framework": "^10.0|^11.0",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "^6.0|^7.0",
-                "laravel/scout": "^10.0|^11.0",
-                "orchestra/testbench": "^8.5|^9.0",
-                "phpunit/phpunit": "^8.0|^9.0|^10.0|^11.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Lomkit\\Rest\\RestServiceProvider"
-                    ],
-                    "aliases": {
-                        "Rest": "Lomkit\\Rest\\Facades\\Rest"
-                    }
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
-                "psr-4": {
-                    "Lomkit\\Rest\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gautier Deleglise",
-                    "email": "gautier@lomkit.com"
-                }
-            ],
-            "description": "A package to build quick and robust rest api for the Laravel framework.",
-            "keywords": [
-                "api",
-                "graphql",
-                "laravel",
-                "lomkit",
-                "rest"
-            ],
-            "support": {
-                "issues": "https://github.com/Lomkit/laravel-rest-api/issues",
-                "source": "https://github.com/Lomkit/laravel-rest-api/tree/v2.8.7"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/GautierDele",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-09-07T14:24:30+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -6818,16 +6744,16 @@
         },
         {
             "name": "larastan/larastan",
-            "version": "v2.9.9",
+            "version": "v2.9.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/larastan/larastan.git",
-                "reference": "148faa138f0d8acb7d85f4a55693d3e13b6048d2"
+                "reference": "9e7233d88f4f10796fadb8a2d85c5f2b55277c76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/larastan/larastan/zipball/148faa138f0d8acb7d85f4a55693d3e13b6048d2",
-                "reference": "148faa138f0d8acb7d85f4a55693d3e13b6048d2",
+                "url": "https://api.github.com/repos/larastan/larastan/zipball/9e7233d88f4f10796fadb8a2d85c5f2b55277c76",
+                "reference": "9e7233d88f4f10796fadb8a2d85c5f2b55277c76",
                 "shasum": ""
             },
             "require": {
@@ -6897,7 +6823,7 @@
             ],
             "support": {
                 "issues": "https://github.com/larastan/larastan/issues",
-                "source": "https://github.com/larastan/larastan/tree/v2.9.9"
+                "source": "https://github.com/larastan/larastan/tree/v2.9.10"
             },
             "funding": [
                 {
@@ -6917,7 +6843,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-10-15T19:41:22+00:00"
+            "time": "2024-10-19T23:04:40+00:00"
         },
         {
             "name": "laravel/pail",
